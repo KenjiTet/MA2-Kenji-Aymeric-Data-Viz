@@ -20,9 +20,22 @@ This dataset contains information about movies and the actors who starred in the
   - Votes: the number of votes the movie received on the website where the data was collected.
   - Rating: the average rating of the movie on the website where the data was collected.
   - FilmID: a unique identifier for the movie.
-  - 
-The dataset contains multiple rows for each actor, each row corresponding to a different movie that the actor starred in. The dataset includes movies released over     a span of several decades. The number of votes and the rating of the movies are also included, which can be used to analyze the popularity and       quality of the movies. The dataset can be used to explore the careers of different actors, as well as to analyze trends in the movie industry over time.
+ 
+The dataset contains multiple rows for each actor, each row corresponding to a different movie that the actor starred in. The dataset includes movies released over     a span of several decades. The number of votes and the rating of the movies are also included, which can be used to analyze the popularity and quality of the movies. The dataset can be used to explore the careers of different actors, as well as to analyze trends in the movie industry over time.
 
+[Poster Dataset](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/duplicate_free_41K.csv)
+
+This dataset contains information about movies and their posters. The columns of the dataset are:
+
+  - id: a unique identifier for the movie.
+  - poster: the URL of the poster image for the movie.
+  - title: the title of the movie.
+  - year: the year the movie was released.
+  - rating: the average rating of the movie on the website where the data was collected.
+  - genre: the genre(s) of the movie.
+  - action, adventure, animation, comedy, crime, drama, fantasy, horror, mystery, romance, sci-fi, short, thriller: binary flags indicating whether the movie belongs       to the corresponding genre(s).
+
+The dataset includes thousands of movie posters released from 1932 to 2020. The genre(s) of each movie are also included, as well as binary flags indicating whether the movie belongs to specific genres, such as action, comedy, drama, etc. The dataset can be used to analyze trends in movie genres and to identify the most popular movies based on ratings. The poster URLs can also be used to download and analyze the images themselves.
 
 # Problematic
 
