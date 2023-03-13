@@ -14,9 +14,8 @@ The need to understand the relationships and collaborations between actors and d
 
 The primary goal of the project is to assist users in understanding the relationships and collaborations between actors and directors, as well as the films they worked on together. The interactive graph allows users to explore the data in a dynamic and engaging manner, with the option to filter by date and genre, making it easier to analyze and comprehend the information presented.
 
-
-This project will be of particular interest to moviegoers, students, researchers, and anyone else interested in the relationships and collaborations between actors and directors in the film industry. This project can facilitate new discoveries and insights in the field of film studies by providing a clear and concise representation of the data. It could also be used by filmmakers and producers to identify potential collaborators based on previous collaborations, allowing for more efficient and effective filmmaking.
+This project can facilitate new discoveries and insights in the field of film studies by providing a clear and concise representation of the data.
 
 # Target Audience
 
-The target audience for this visualization could be movie enthusiasts, students, researchers, or anyone interested in exploring the relationships between actors and directors in the film industry.
+The target audience for this visualization could be movie enthusiasts, students, researchers, or anyone interested in exploring the relationships between actors and directors in the film industry. It could also be used by filmmakers and producers to identify potential collaborators based on previous collaborations, allowing for more efficient and effective filmmaking.
