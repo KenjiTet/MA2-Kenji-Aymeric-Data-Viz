@@ -9,7 +9,8 @@ The visualization includes multiple interactive buttons, such as a date cursor t
 This project uses data visualization techniques to present complex information in a clear and concise manner, allowing users to explore and analyze the data in an interactive and engaging way.
 
 # Dataset
-[Actor and Movie Dataset ](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/actorfilms.csv)
+[Actor and Movie Dataset](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/actorfilms.csv)
+
 This dataset contains information about movies and the actors who starred in them. The columns of the dataset are:
 
   - Actor: the name of the actor who starred in the movie.
