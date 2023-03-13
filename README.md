@@ -8,6 +8,10 @@ The visualization includes multiple interactive buttons, such as a date cursor t
 
 This project uses data visualization techniques to present complex information in a clear and concise manner, allowing users to explore and analyze the data in an interactive and engaging way.
 
+# Dataset
+[a link](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/actorfilms.csv)
+
+
 # Problematic
 
 The need to understand the relationships and collaborations between actors and directors in the film industry is the problem that this project seeks to address. There is a wealth of information available about movies and their creators, but effectively analyzing and comprehending this information can be difficult. This project explores and visualizes the relationships and collaborations between actors and directors in an interactive and intuitive manner.
