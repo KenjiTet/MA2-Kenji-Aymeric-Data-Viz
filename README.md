@@ -9,7 +9,18 @@ The visualization includes multiple interactive buttons, such as a date cursor t
 This project uses data visualization techniques to present complex information in a clear and concise manner, allowing users to explore and analyze the data in an interactive and engaging way.
 
 # Dataset
-[a link](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/actorfilms.csv)
+[Actor and Movie Dataset ](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/actorfilms.csv)
+This dataset contains information about movies and the actors who starred in them. The columns of the dataset are:
+
+  - Actor: the name of the actor who starred in the movie.
+  - ActorID: a unique identifier for the actor.
+  - Film: the title of the movie.
+  - Year: the year the movie was released.
+  - Votes: the number of votes the movie received on the website where the data was collected.
+  - Rating: the average rating of the movie on the website where the data was collected.
+  - FilmID: a unique identifier for the movie.
+  - 
+The dataset contains multiple rows for each actor, each row corresponding to a different movie that the actor starred in. The dataset includes movies released over     a span of several decades. The number of votes and the rating of the movies are also included, which can be used to analyze the popularity and       quality of the movies. The dataset can be used to explore the careers of different actors, as well as to analyze trends in the movie industry over time.
 
 
 # Problematic
