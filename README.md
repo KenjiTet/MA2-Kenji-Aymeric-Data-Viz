@@ -8,6 +8,14 @@ The visualization includes multiple interactive buttons, such as a date cursor t
 
 This project uses data visualization techniques to present complex information in a clear and concise manner, allowing users to explore and analyze the data in an interactive and engaging way.
 
+# Problematic
+
+The need to understand the relationships and collaborations between actors and directors in the film industry is the problem that this project seeks to address. There is a wealth of information available about movies and their creators, but effectively analyzing and comprehending this information can be difficult. This project explores and visualizes the relationships and collaborations between actors and directors in an interactive and intuitive manner.
+
+The primary goal of the project is to assist users in understanding the relationships and collaborations between actors and directors, as well as the films they worked on together. The interactive graph allows users to explore the data in a dynamic and engaging manner, with the option to filter by date and genre, making it easier to analyze and comprehend the information presented.
+
+This project can facilitate new discoveries and insights in the field of film studies by providing a clear and concise representation of the data.
+
 # Dataset
 [Actor and Movie Dataset](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/actorfilms.csv)
 
@@ -37,13 +45,20 @@ This dataset contains information about movies and their posters. The columns of
 
 The dataset includes thousands of movie posters released from 1932 to 2020. The genre(s) of each movie are also included, as well as binary flags indicating whether the movie belongs to specific genres, such as action, comedy, drama, etc. The dataset can be used to analyze trends in movie genres and to identify the most popular movies based on ratings. The poster URLs can also be used to download and analyze the images themselves.
 
-# Problematic
+# Data Preprocessing
 
-The need to understand the relationships and collaborations between actors and directors in the film industry is the problem that this project seeks to address. There is a wealth of information available about movies and their creators, but effectively analyzing and comprehending this information can be difficult. This project explores and visualizes the relationships and collaborations between actors and directors in an interactive and intuitive manner.
+Based on the information provided, it's difficult to fully assess the quality of the data in the poster movie dataset. However, there are a few things that can be noted:
 
-The primary goal of the project is to assist users in understanding the relationships and collaborations between actors and directors, as well as the films they worked on together. The interactive graph allows users to explore the data in a dynamic and engaging manner, with the option to filter by date and genre, making it easier to analyze and comprehend the information presented.
+  - The poster column contains URLs of images, but it's unclear if all the URLs are valid and still available. It's possible that some of the images have been removed    or that the URLs are incorrect.
+  - The genre column contains multiple genres separated by commas. It may be difficult to work with this column in its current format, especially if we want to analyze     the data by genre.
+  - The binary genre columns (action, adventure, etc.) may contain inconsistent or incorrect data. For example, a movie could be classified as both "action" and       
+    "comedy", but it's unclear how the binary columns would handle this.
 
-This project can facilitate new discoveries and insights in the field of film studies by providing a clear and concise representation of the data.
+Given the task of linking actors to movies, it's clear that some preprocessing and data cleaning will be necessary. The current dataset shows which actors were in each movie, but the task requires knowing which movies each actor appeared in. As mentioned, one way to accomplish this would be to create a dictionary with the movies as keys and lists of actors as values, and then convert that to a dataframe.
+
+Once the actor/movie dataframe is created, it will be necessary to merge it with the poster movie dataset to obtain the necessary information for visualization. This will likely require additional data cleaning and processing to ensure that the data is consistent and that the merge can be performed accurately.
+
+Overall, it's likely that several preprocessing and data cleaning steps will be necessary to obtain a useful dataset for visualization. However, with careful attention to detail and a systematic approach, it should be possible to achieve the desired outcome.
 
 # Target Audience
 
