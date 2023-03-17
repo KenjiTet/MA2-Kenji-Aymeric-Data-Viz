@@ -35,13 +35,13 @@ The dataset contains multiple rows for each actor, each row corresponding to a d
 
 This dataset contains information about movies and their posters. The columns of the dataset are:
 
-  - id: a unique identifier for the movie.
-  - poster: the URL of the poster image for the movie.
-  - title: the title of the movie.
-  - year: the year the movie was released.
-  - rating: the average rating of the movie on the website where the data was collected.
-  - genre: the genre(s) of the movie.
-  - action, adventure, animation, comedy, crime, drama, fantasy, horror, mystery, romance, sci-fi, short, thriller: binary flags indicating whether the movie belongs       to the corresponding genre(s).
+  - Id: a unique identifier for the movie.
+  - Poster: the URL of the poster image for the movie.
+  - Title: the title of the movie.
+  - Year: the year the movie was released.
+  - Rating: the average rating of the movie on the website where the data was collected.
+  - Genre: the genre(s) of the movie.
+  - Action, adventure, animation, comedy, crime, drama, fantasy, horror, mystery, romance, sci-fi, short, thriller: binary flags indicating whether the movie belongs       to the corresponding genre(s).
 
 The dataset includes thousands of movie posters released from 1932 to 2020. The genre(s) of each movie are also included, as well as binary flags indicating whether the movie belongs to specific genres, such as action, comedy, drama, etc. The dataset can be used to analyze trends in movie genres and to identify the most popular movies based on ratings. The poster URLs can also be used to download and analyze the images themselves.
 
@@ -49,10 +49,10 @@ The dataset includes thousands of movie posters released from 1932 to 2020. The 
 
 Based on the information provided, it's difficult to fully assess the quality of the data in the poster movie dataset. However, there are a few things that can be noted:
 
-  - The poster column contains URLs of images, but it's unclear if all the URLs are valid and still available. It's possible that some of the images have been removed    or that the URLs are incorrect.
-  - The genre column contains multiple genres separated by commas. It may be difficult to work with this column in its current format, especially if we want to analyze     the data by genre.
-  - The binary genre columns (action, adventure, etc.) may contain inconsistent or incorrect data. For example, a movie could be classified as both "action" and       
-    "comedy", but it's unclear how the binary columns would handle this.
+  - The poster column contains URLs of images, but it was unclear if all the URLs are valid and still available. It's possible that some of the images have been    
+    removed or that the URLs are incorrect.
+  - The genre column contains multiple genres separated by commas. It could be difficult to work with this column in its current format, especially if we want to 
+    analyze the data by genre.
 
 Given the task of linking actors to movies, it's clear that some preprocessing and data cleaning will be necessary. The current dataset shows which actors were in each movie, but the task requires knowing which movies each actor appeared in. As mentioned, one way to accomplish this would be to create a dictionary with the movies as keys and lists of actors as values, and then convert that to a dataframe.
 
