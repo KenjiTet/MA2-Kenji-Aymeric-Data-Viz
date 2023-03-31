@@ -1,13 +1,13 @@
 
-### 1 Problematic
+# 1 Problematic
 
-#### 1.1 Overview
+## 1.1 Overview
 
   Films from various cultural backgrounds are available to audiences worldwide, enriching the cinematic landscape with diverse stories and perspectives. 
 
 movies serve not only as a form of entertainment but also as a medium to connect people, ignite conversations, and allow us to experience emotions and adventures beyond our own realities. The ever-evolving nature of the film industry will continue to grow and diversify. As the film industry continues to expand, the sheer volume of movies and actors involved can make it challenging to fully comprehend the scope and diversity of the cinematic universe. This democratization of film production means that there is a constant stream of new movies and actors to discover, further adding to the difficulty of grasping the full picture of the cinematic landscape. 
 
-#### 1.2 Motivation & goal :
+## 1.2 Motivation & goal :
 
   We are both passionate about cinema and films have been part of our daily lives since we were very young. 
 
@@ -17,7 +17,7 @@ But for someone who is not a real movie lover it can be difficult to find himsel
 
 That's why we had the idea to create an interactive graph that showcases the relationships between actors and directors based on the movies they worked on together. The graph will allow anyone to explore in an interactive and intuitive way through time and genres, the connections in the movie industry  and gain insight into the movies and the peoples that collaborated on it. The visualization will includes multiple interactive buttons, such as a date cursor that enables users to filter the graph based on the movies made in a specific year or earlier. Similarly, the possibility for the user to select a particular genre to directly filter the corresponding movies. 
 
-#### 1.3 Target audience:
+## 1.3 Target audience:
 
 This project is for anyone who is remotely interested in the film industry. whether it's an experienced film buff looking to expand their knowledge of the industry or just someone wondering what movie to watch tonight, the vast amount of easily accessible information is intended to be accessible to anyone.
 
