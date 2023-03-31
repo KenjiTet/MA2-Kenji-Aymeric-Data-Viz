@@ -47,12 +47,25 @@ By following these steps, we were able to successfully attribute each movie post
 
 # Data Pre-Processing
 
-In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/data_processing.ipynb), we performed a series of steps to clean and organize the movie dataset. 
+In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/data_processing.ipynb), we carried out an extensive preprocessing process on the movie dataset to make it suitable for further analysis. The following steps were taken:
 
-We began by extracting essential columns from the bulk movie dataset and transforming the Actors and Directors columns into lists. Then, we dropped rows with missing values in Actors, Genre, and Poster columns. Unique actors and directors were identified and assigned unique IDs. We proceeded to create an actor-to-actor and a director-to-actor matrix to represent their relationships. We also provided functions to display movie posters and find movies with the greatest intersection of actors.
+  - We first imported the necessary libraries and loaded the dataset into a pandas DataFrame. Then, we selected the relevant columns, such as Title, Actors, Genre, Director, Writer, Poster, Language, Box_office, Country, Rated, Released, Runtime, imdbRating, and Awards.
 
-Next, we determined the actors and directors who worked with the most actors and on the most movies. Using this information, we filtered the dataset to only include movies with famous actors, a significant box office, or a director from the list of most influential directors. This resulted in a filtered dataset that can be used for further analysis. We also provided functions to display rows containing specific actors or directors and implemented a search function to find movies based on a keyword present in their titles. These preprocessing steps have transformed the raw movie dataset into a more structured, manageable, and valuable resource for further analysis and insights.
-# Target Audience
+  - To make the data more accessible for analysis, we converted the Actors and Directors columns into lists, separating individual names.
+
+  - We dropped rows with missing values in the essential columns: Actors, Genre, and Poster. This decision ensured that the remaining data was complete and more reliable.
+
+  - We identified unique actors and directors in the dataset and assigned them unique IDs. This process allowed us to create new columns 'Actors_id' and 'Director_id', which stored the IDs for each movie's actors and directors.
+
+  - We constructed an actor-to-actor matrix and a director-to-actor matrix to represent the relationships between these entities. These matrices could be used to identify collaborative patterns in the dataset.
+
+  - We provided functions to display movie posters based on the movie title and find movies with the most significant intersection of actors. These functions made the dataset more interactive and user-friendly.
+
+  - We analyzed the dataset to determine the actors and directors who worked with the most actors and on the most movies. This information was valuable in identifying influential individuals in the industry.
+
+  - Using the insights gained from the previous step, we filtered the dataset to include only movies with famous actors, a substantial box office, or a director from the list of most influential directors. This filtered dataset contained movies that were more likely to be of interest in further analyses.
+
+These preprocessing steps have transformed the raw movie dataset into a more structured and valuable resource for further analysis and insights. The resulting dataset is now ready for use in various machine learning and data analysis tasks, enabling deeper exploration of relationships and patterns within the movie industry.
 
 The target audience for this visualization could be movie enthusiasts, students, researchers, or anyone interested in exploring the relationships between actors and directors in the film industry. It could also be used by filmmakers and producers to identify potential collaborators based on previous collaborations, allowing for more efficient and effective filmmaking.
 
