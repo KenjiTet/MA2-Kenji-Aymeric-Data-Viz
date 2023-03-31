@@ -25,5 +25,20 @@ The dataset includes a wide range of information about each movie, such as:
   - Director: The director of the movie (e.g., "George Lucas").
   - Language: The primary language spoken in the movie (e.g., "English").
 
-Complementing the movie_data_per_year dataset is the [movie_poster_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_poster_per_year) dataset. This dataset is organized into directories for each year from 1980 to 2015 and contains JPEG images of movie posters corresponding to the movies listed in the movie_data_per_year dataset. These images can be used to provide a visual representation of each movies. By combining both datasets, users can access a rich source of movie-related information that can be employed in a wide range of analyses and projects.
+Complementing the movie_data_per_year dataset is the [movie_poster_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_poster_per_year) dataset. This dataset is organized into directories for each year from 1980 to 2015 and contains JPEG images of movie posters corresponding to the movies listed in the movie_data_per_year dataset. The connection between the movie_data_per_year and movie_poster_per_year datasets is established through the IMDb IDs of the movies. Each poster image is named after the IMDb ID of the corresponding movie. For example, the poster for the movie "Star Wars: Episode I - The Phantom Menace" has the file name "tt0120915.jpg" because its IMDb ID is tt0120915. These images can be used to provide a visual representation of each movies. By combining both datasets, users can access a rich source of movie-related information that can be employed in a wide range of analyses and projects.
 
+# Pre-Processing
+
+The preprocessing of the movie_data_per_year dataset posed several challenges, primarily due to the varying availability of information for each movie. Some movies lacked certain fields, such as Metascore or Box_office, particularly for less famous films. This inconsistency made it difficult to create a unified and clean DataFrame for further analysis. To address this issue, we thoroughly examined the format of each movie entry and assigned NaN values to the missing fields. This approach allowed us to maintain a consistent structure while acknowledging the absence of specific data points.
+
+Another challenge during the preprocessing phase was to link the movie posters from the movie_poster_per_year dataset to the corresponding movies in the movie_data_per_year dataset. Matching the posters to the movies based on the poster name was not a straightforward task, as the naming conventions for the poster files might not always align with the movie titles or IMDb IDs.
+
+To overcome this difficulty, we implemented the following steps:
+
+  - First, we created a dictionary or mapping to associate the movie poster file names with their respective IMDb IDs. This mapping could be generated using either the movie title or other unique identifiers available in the dataset.
+
+  -Next, we iterated through each movie entry in the movie_data_per_year dataset and used the mapping created in the previous step to identify the corresponding poster file name.
+
+  -We then added a new column to the DataFrame, which stored the associated poster file names for each movie. This new column enabled us to maintain a direct relationship between the movies and their corresponding posters.
+
+By following these steps, we were able to successfully attribute each movie poster from the movie_poster_per_year dataset to the appropriate movie in the movie_data_per_year dataset. This preprocessing enabled us to create a complete and structured DataFrame, which served as a solid foundation for subsequent data analysis and visualization tasks.
