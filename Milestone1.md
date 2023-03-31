@@ -44,3 +44,8 @@ To overcome this difficulty, we implemented the following steps:
   - We then added a new column to the DataFrame, which stored the associated poster file names for each movie. This new column enabled us to maintain a direct relationship between the movies and their corresponding posters.
 
 By following these steps, we were able to successfully attribute each movie poster from the movie_poster_per_year dataset to the appropriate movie in the movie_data_per_year dataset. This preprocessing enabled us to create a complete and structured DataFrame, which served as the foundation for subsequent data analysis and visualization tasks.
+
+# Target Audience
+
+The target audience for this visualization could be movie enthusiasts, students, researchers, or anyone interested in exploring the relationships between actors and directors in the film industry. It could also be used by filmmakers and producers to identify potential collaborators based on previous collaborations, allowing for more efficient and effective filmmaking.
+
