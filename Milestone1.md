@@ -25,7 +25,9 @@ The dataset includes a wide range of information about each movie, such as:
   - Director: The director of the movie (e.g., "George Lucas").
   - Language: The primary language spoken in the movie (e.g., "English").
 
-Complementing the movie_data_per_year dataset is the [movie_poster_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_poster_per_year) dataset. This dataset is organized into directories for each year from 1980 to 2015 and contains JPEG images of movie posters corresponding to the movies listed in the movie_data_per_year dataset. The connection between the movie_data_per_year and movie_poster_per_year datasets is established through the IMDb IDs of the movies. Each poster image is named after the IMDb ID of the corresponding movie. For example, the poster for the movie "Star Wars: Episode I - The Phantom Menace" has the file name "tt0120915.jpg" because its IMDb ID is tt0120915. These images can be used to provide a visual representation of each movies. By combining both datasets, users can access a rich source of movie-related information that can be employed in a wide range of analyses and projects.
+Complementing the movie_data_per_year dataset is the [movie_poster_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_poster_per_year) dataset. This dataset is organized into directories for each year from 1980 to 2015 and contains JPEG images of movie posters corresponding to the movies listed in the movie_data_per_year dataset. The connection between the movie_data_per_year and movie_poster_per_year datasets is established through the IMDb IDs of the movies. Each poster image is named after the IMDb ID of the corresponding movie. For example, the poster for the movie "Star Wars: Episode I - The Phantom Menace" has the file name "tt0120915.jpg" because its IMDb ID is tt0120915. 
+
+These images can be used to provide a visual representation of each movies. By combining both datasets, users can access a rich source of movie-related information that can be employed in a wide range of analyses and projects.
 
 # Pre-Processing
 
@@ -41,4 +43,4 @@ To overcome this difficulty, we implemented the following steps:
 
   - We then added a new column to the DataFrame, which stored the associated poster file names for each movie. This new column enabled us to maintain a direct relationship between the movies and their corresponding posters.
 
-By following these steps, we were able to successfully attribute each movie poster from the movie_poster_per_year dataset to the appropriate movie in the movie_data_per_year dataset. This preprocessing enabled us to create a complete and structured DataFrame, which served as a solid foundation for subsequent data analysis and visualization tasks.
+By following these steps, we were able to successfully attribute each movie poster from the movie_poster_per_year dataset to the appropriate movie in the movie_data_per_year dataset. This preprocessing enabled us to create a complete and structured DataFrame, which served as the foundation for subsequent data analysis and visualization tasks.
