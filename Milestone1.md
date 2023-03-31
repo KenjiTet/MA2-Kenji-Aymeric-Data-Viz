@@ -49,7 +49,7 @@ By following these steps, we were able to successfully attribute each movie post
 
 In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/data_processing.ipynb), we carried out an extensive preprocessing process on the movie dataset to make it suitable for further analysis. The following steps were taken:
 
-  - We first imported the necessary libraries and loaded the dataset into a pandas DataFrame. Then, we selected the relevant columns, such as Title, Actors, Genre, Director, Writer, Poster, Language, Box_office, Country, Rated, Released, Runtime, imdbRating, and Awards.
+  - We first selected the relevant columns: Title, Actors, Genre, Director, Writer, Poster, Language, Box_office, Country, Rated, Released, Runtime, imdbRating, and Awards.
 
   - To make the data more accessible for analysis, we converted the Actors and Directors columns into lists, separating individual names.
 
@@ -57,7 +57,7 @@ In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-V
 
   - We identified unique actors and directors in the dataset and assigned them unique IDs. This process allowed us to create new columns 'Actors_id' and 'Director_id', which stored the IDs for each movie's actors and directors.
 
-  - We constructed an actor-to-actor matrix and a director-to-actor matrix to represent the relationships between these entities. These matrices could be used to identify collaborative patterns in the dataset.
+  - We constructed an actor-to-actor matrix and a director-to-actor matrix to represent the relationships between these entities. These matrices will be used to identify collaborative patterns in the dataset.
 
   - We provided functions to display movie posters based on the movie title and find movies with the most significant intersection of actors. These functions made the dataset more interactive and user-friendly.
 
