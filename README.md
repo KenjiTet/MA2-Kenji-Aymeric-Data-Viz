@@ -1,5 +1,11 @@
 # Data Visualization Project Overview
 
+
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
+
 The goal of this data visualization project is to create an interactive graph that showcases the relationships between actors and directors based on the movies they worked on together. The graph allows users to explore the connections between individuals and gain insights into the movies they collaborated on.
 
 The interactive graph provides an intuitive and engaging way for users to explore the relationships and collaborations between actors and directors. By clicking on the edges, users can see the posters and descriptions of the movies and gain a deeper understanding of the collaborations.
