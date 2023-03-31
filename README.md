@@ -1,4 +1,4 @@
-## 🗒️ Authors
+## ✏️ Authors
 
 
 Name | Sciper |
