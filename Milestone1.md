@@ -29,9 +29,9 @@ Complementing the movie_data_per_year dataset is the [movie_poster_per_year](htt
 
 These images can be used to provide a visual representation of each movies. By combining both datasets, users can access a rich source of movie-related information that can be employed in a wide range of analyses and projects.
 
-# Pre-Processing
+# Data Extraction
 
-The preprocessing of the movie_data_per_year dataset posed several challenges, primarily due to the varying availability of information for each movie. Some movies lacked certain fields, such as Metascore or Box_office, particularly for less famous films. This inconsistency made it difficult to create a unified and clean DataFrame for further analysis. To address this issue, we thoroughly examined the format of each movie entry and assigned NaN values to the missing fields. This approach allowed us to maintain a consistent structure while acknowledging the absence of specific data points.
+Before the preprocessing of our data we needed to [extract and transform into a clean dataframe](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/data_extraction.ipynb) the bulk data that we found. The movie_data_per_year dataset posed several challenges, primarily due to the varying availability of information for each movie. Some movies lacked certain fields, such as Metascore or Box_office, particularly for less famous films. This inconsistency made it difficult to create a unified and clean DataFrame for further analysis. To address this issue, we thoroughly examined the format of each movie entry and assigned NaN values to the missing fields. This approach allowed us to maintain a consistent structure while acknowledging the absence of specific data points.
 
 Another challenge during the preprocessing phase was to link the movie posters from the movie_poster_per_year dataset to the corresponding movies in the movie_data_per_year dataset. Matching the posters to the movies based on the poster name was not a straightforward task, as the naming conventions for the poster files might not always align with the movie titles or IMDb IDs.
 
@@ -45,6 +45,13 @@ To overcome this difficulty, we implemented the following steps:
 
 By following these steps, we were able to successfully attribute each movie poster from the movie_poster_per_year dataset to the appropriate movie in the movie_data_per_year dataset. This preprocessing enabled us to create a complete and structured DataFrame, which served as the foundation for subsequent data analysis and visualization tasks.
 
+# Data Pre-Processing
+
+In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/data_processing.ipynb), we performed a series of steps to clean and organize the movie dataset. 
+
+We began by extracting essential columns from the bulk movie dataset and transforming the Actors and Directors columns into lists. Then, we dropped rows with missing values in Actors, Genre, and Poster columns. Unique actors and directors were identified and assigned unique IDs. We proceeded to create an actor-to-actor and a director-to-actor matrix to represent their relationships. We also provided functions to display movie posters and find movies with the greatest intersection of actors.
+
+Next, we determined the actors and directors who worked with the most actors and on the most movies. Using this information, we filtered the dataset to only include movies with famous actors, a significant box office, or a director from the list of most influential directors. This resulted in a filtered dataset that can be used for further analysis. We also provided functions to display rows containing specific actors or directors and implemented a search function to find movies based on a keyword present in their titles. These preprocessing steps have transformed the raw movie dataset into a more structured, manageable, and valuable resource for further analysis and insights.
 # Target Audience
 
 The target audience for this visualization could be movie enthusiasts, students, researchers, or anyone interested in exploring the relationships between actors and directors in the film industry. It could also be used by filmmakers and producers to identify potential collaborators based on previous collaborations, allowing for more efficient and effective filmmaking.
