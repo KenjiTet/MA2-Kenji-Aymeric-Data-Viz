@@ -91,6 +91,3 @@ In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-V
   - Using the insights gained from the previous step, we filtered the dataset to include only movies with famous actors, a substantial box office, or a director from the list of most influential directors. This filtered dataset contained movies that were more likely to be of interest in further analyses.
 
 These preprocessing steps have transformed the raw movie dataset into a more structured and valuable resource for further analysis and insights. The resulting dataset is now ready for use in various machine learning and data analysis tasks, enabling deeper exploration of relationships and patterns within the movie industry.
-
-The target audience for this visualization could be movie enthusiasts, students, researchers, or anyone interested in exploring the relationships between actors and directors in the film industry. It could also be used by filmmakers and producers to identify potential collaborators based on previous collaborations, allowing for more efficient and effective filmmaking.
-
