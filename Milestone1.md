@@ -23,7 +23,7 @@ This project is for anyone who is remotely interested in the film industry. whet
 
 
 
-# Dataset
+# 2 Dataset
 
 Our two main datasets [movie_data_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_data_per_year) and [movie_poster_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_poster_per_year) were originally created as part of a study titled "Movie Genre Classification based on Poster Images with Deep Neural Networks". This study aimed to explore the possibility of classifying movie genres using movie poster images and deep learning techniques. The researchers compiled an extensive collection of movie information and poster images spanning from 1980 to 2015 to serve as the foundation for their analysis. [link to study](http://mmcv.csie.ncku.edu.tw/~wtchu/projects/MoviePoster/index.html)
 
@@ -54,7 +54,7 @@ Complementing the movie_data_per_year dataset is the [movie_poster_per_year](htt
 
 These images can be used to provide a visual representation of each movies. By combining both datasets, users can access a rich source of movie-related information that can be employed in a wide range of analyses and projects.
 
-# Data Extraction
+# 3 Data Extraction
 
 Before the preprocessing of our data we needed to [extract and transform into a clean dataframe](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/data_extraction.ipynb) the bulk data that we found. The movie_data_per_year dataset posed several challenges, primarily due to the varying availability of information for each movie. Some movies lacked certain fields, such as Metascore or Box_office, particularly for less famous films. This inconsistency made it difficult to create a unified and clean DataFrame for further analysis. To address this issue, we thoroughly examined the format of each movie entry and assigned NaN values to the missing fields. This approach allowed us to maintain a consistent structure while acknowledging the absence of specific data points.
 
@@ -70,7 +70,7 @@ To overcome this difficulty, we implemented the following steps:
 
 By following these steps, we were able to successfully attribute each movie poster from the movie_poster_per_year dataset to the appropriate movie in the movie_data_per_year dataset. This preprocessing enabled us to create a complete and structured DataFrame, which served as the foundation for subsequent data analysis and visualization tasks.
 
-# Data Pre-Processing
+# 4 Data Pre-Processing
 
 In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/data_processing.ipynb), we carried out an extensive preprocessing process on the movie dataset to make it suitable for further analysis. The following steps were taken:
 
