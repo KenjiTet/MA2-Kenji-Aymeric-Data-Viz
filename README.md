@@ -7,17 +7,6 @@ Bacuet Aymeric | 297168 |
 Tetard Kenji | 301569 |
 
 
-| | ico | shortcode | ico | shortcode | |
-| - | :-: | - | :-: | - | - |
-| [top](#objects) | :movie_camera: | `:movie_camera:` | :film_strip: | `:film_strip:` | [top](#table-of-contents) |
-| [top](#objects) | :film_projector: | `:film_projector:` | :clapper: | `:clapper:` | [top](#table-of-contents) |
-| [top](#objects) | :tv: | `:tv:` | :camera: | `:camera:` | [top](#table-of-contents) |
-| [top](#objects) | :camera_flash: | `:camera_flash:` | :video_camera: | `:video_camera:` | [top](#table-of-contents) |
-| [top](#objects) | :vhs: | `:vhs:` | :mag: | `:mag:` | [top](#table-of-contents) |
-| [top](#objects) | :mag_right: | `:mag_right:` | :candle: | `:candle:` | [top](#table-of-contents) |
-| [top](#objects) | :bulb: | `:bulb:` | :flashlight: | `:flashlight:` | [top](#table-of-contents) |
-| [top](#objects) | :izakaya_lantern: | `:izakaya_lantern:` <br /> `:lantern:` | :diya_lamp: | `:diya_lamp:` | [top](#table-of-contents) |
-
 
 The goal of this data visualization project is to create an interactive graph that showcases the relationships between actors and directors based on the movies they worked on together. The graph allows users to explore the connections between individuals and gain insights into the movies they collaborated on.
 
