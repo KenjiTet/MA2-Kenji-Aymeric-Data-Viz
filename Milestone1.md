@@ -1,3 +1,28 @@
+
+### 1 Problematic
+
+#### 1.1 Overview
+
+  Films from various cultural backgrounds are available to audiences worldwide, enriching the cinematic landscape with diverse stories and perspectives. 
+
+movies serve not only as a form of entertainment but also as a medium to connect people, ignite conversations, and allow us to experience emotions and adventures beyond our own realities. The ever-evolving nature of the film industry will continue to grow and diversify. As the film industry continues to expand, the sheer volume of movies and actors involved can make it challenging to fully comprehend the scope and diversity of the cinematic universe. This democratization of film production means that there is a constant stream of new movies and actors to discover, further adding to the difficulty of grasping the full picture of the cinematic landscape. 
+
+#### 1.2 Motivation & goal :
+
+  We are both passionate about cinema and films have been part of our daily lives since we were very young. 
+
+But for someone who is not a real movie lover it can be difficult to find himself in the immense diversity of films, genres or actors and to visualize the great perplexity of the relationships between actors.
+
+ Have you ever wondered in which movies this actors have played ? Or in which movies have a famous duo of actors participating in ? Wouldn’t be awesome to get the full picture of the entire list of person an actor played with in its career and to be able to retrieve all the information about the films they played in ? Everybody at some point in their life had these kind of questions in mind but the answers are not easy to obtain.
+
+That's why we had the idea to create an interactive graph that showcases the relationships between actors and directors based on the movies they worked on together. The graph will allow anyone to explore in an interactive and intuitive way through time and genres, the connections in the movie industry  and gain insight into the movies and the peoples that collaborated on it. The visualization will includes multiple interactive buttons, such as a date cursor that enables users to filter the graph based on the movies made in a specific year or earlier. Similarly, the possibility for the user to select a particular genre to directly filter the corresponding movies. 
+
+#### 1.3 Target audience:
+
+This project is for anyone who is remotely interested in the film industry. whether it's an experienced film buff looking to expand their knowledge of the industry or just someone wondering what movie to watch tonight, the vast amount of easily accessible information is intended to be accessible to anyone.
+
+
+
 # Dataset
 
 Our two main datasets [movie_data_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_data_per_year) and [movie_poster_per_year](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-Viz/tree/main/Dataset/movie_poster_per_year) were originally created as part of a study titled "Movie Genre Classification based on Poster Images with Deep Neural Networks". This study aimed to explore the possibility of classifying movie genres using movie poster images and deep learning techniques. The researchers compiled an extensive collection of movie information and poster images spanning from 1980 to 2015 to serve as the foundation for their analysis. [link to study](http://mmcv.csie.ncku.edu.tw/~wtchu/projects/MoviePoster/index.html)
