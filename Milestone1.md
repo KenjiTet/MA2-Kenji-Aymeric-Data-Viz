@@ -37,8 +37,8 @@ To overcome this difficulty, we implemented the following steps:
 
   - First, we created a dictionary or mapping to associate the movie poster file names with their respective IMDb IDs. This mapping could be generated using either the movie title or other unique identifiers available in the dataset.
 
-  -Next, we iterated through each movie entry in the movie_data_per_year dataset and used the mapping created in the previous step to identify the corresponding poster file name.
+  - Next, we iterated through each movie entry in the movie_data_per_year dataset and used the mapping created in the previous step to identify the corresponding poster file name.
 
-  -We then added a new column to the DataFrame, which stored the associated poster file names for each movie. This new column enabled us to maintain a direct relationship between the movies and their corresponding posters.
+  - We then added a new column to the DataFrame, which stored the associated poster file names for each movie. This new column enabled us to maintain a direct relationship between the movies and their corresponding posters.
 
 By following these steps, we were able to successfully attribute each movie poster from the movie_poster_per_year dataset to the appropriate movie in the movie_data_per_year dataset. This preprocessing enabled us to create a complete and structured DataFrame, which served as a solid foundation for subsequent data analysis and visualization tasks.
