@@ -5,17 +5,23 @@
 
   Films from various cultural backgrounds are available to audiences worldwide, enriching the cinematic landscape with diverse stories and perspectives. 
 
-movies serve not only as a form of entertainment but also as a medium to connect people, ignite conversations, and allow us to experience emotions and adventures beyond our own realities. The ever-evolving nature of the film industry will continue to grow and diversify. As the film industry continues to expand, the sheer volume of movies and actors involved can make it challenging to fully comprehend the scope and diversity of the cinematic universe. This democratization of film production means that there is a constant stream of new movies and actors to discover, further adding to the difficulty of grasping the full picture of the cinematic landscape. 
+Movies serve not only as a form of entertainment but also as a medium to connect people, ignite conversations, and allow us to experience emotions and adventures beyond our own realities. The ever-evolving nature of the film industry will continue to grow and diversify. As the film industry continues to expand, the sheer volume of movies and actors involved can make it challenging to fully comprehend the scope and diversity of the cinematic universe. This democratization of film production means that there is a constant stream of new movies and actors to discover, further adding to the difficulty of grasping the full picture of the cinematic landscape. 
 
 ## 1.2 Motivation & goal :
 
   We are both passionate about cinema and films have been part of our daily lives since we were very young. 
 
-But for someone who is not a real movie lover it can be difficult to find himself in the immense diversity of films, genres or actors and to visualize the great perplexity of the relationships between actors.
+But for someone who is not a real movie lover it can be difficult to find himself in the immense diversity of films, genres or actors and to visualize the great perplexity of the relationships between actors and directors.
 
- Have you ever wondered in which movies this actors have played ? Or in which movies have a famous duo of actors participating in ? Wouldn’t be awesome to get the full picture of the entire list of person an actor played with in its career and to be able to retrieve all the information about the films they played in ? Everybody at some point in their life had these kind of questions in mind but the answers are not easy to obtain.
+ Have you ever wondered in which movies this actors have played ? Or in which movies have a famous duo of actors participating in ? Wouldn’t be awesome to get the full picture of the entire list of person an actor played with in its career and to be able to retrieve all the information about the films they played in ? Who hasn't spent an hour of their evening trying to find a suitable movie because they couldn't see the whole landscape of options?
 
-That's why we had the idea to create an interactive graph that showcases the relationships between actors and directors based on the movies they worked on together. The graph will allow anyone to explore in an interactive and intuitive way through time and genres, the connections in the movie industry  and gain insight into the movies and the peoples that collaborated on it. The visualization will includes multiple interactive buttons, such as a date cursor that enables users to filter the graph based on the movies made in a specific year or earlier. Similarly, the possibility for the user to select a particular genre to directly filter the corresponding movies. 
+That's why we had the idea to create an interactive graph that showcases the relationships between actors and directors based on the movies they worked on together. The graph will allow anyone to explore in an interactive and intuitive way through time and genres, the connections in the movie industry and gain insight into the movies and the peoples that collaborated on it. The visualization will includes multiple interactive buttons, such as a date cursor that enables users to filter the graph based on the movies release date. Similarly, the possibility for the user to select a particular genre to directly filter the corresponding movies. 
+We would like at the end to display all these informations into 3 distinct graphs:
+
+  - An actor-to-actor network: When you search for an actor, this network displays all the fellow actors they have shared the screen with.
+  - An actor-to-director network: When you search for an actor, this network reveals all the directors they have collaborated with.
+  - A director-to-actor network: When you search for a director, this network showcases all the actors they have worked with.
+
 
 ## 1.3 Target audience:
 
