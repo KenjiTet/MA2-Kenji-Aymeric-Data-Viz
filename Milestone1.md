@@ -96,3 +96,17 @@ In our [preprocessing part](https://github.com/KenjiTet/MA2-Kenji-Aymeric-Data-V
   - Using the insights gained from the previous step, we filtered the dataset to include only movies with famous actors, a substantial box office, or a director from the list of most influential directors. This filtered dataset contained movies that were more likely to be of interest in further analyses.
 
 These preprocessing steps have transformed the raw movie dataset into a more structured and valuable resource for further analysis and insights. The resulting dataset is now ready for use in various machine learning and data analysis tasks, enabling deeper exploration of relationships and patterns within the movie industry.
+
+
+# 5 Related work
+
+During our research, these are some of the works we came accross that inspired us.
+
+* [An Interactive Visualization of Careers of Actors and Directors](http://khreda.com/vis/movienight/): This project explore the careers of various actors and directors in an interactive way. The interaction with the user interface is very interesting and close of what we had in mind even tho we would like to feature more possibilities. 
+
+* [The Network Data Repository with Interactive Graph Analytics and Visualization](https://networkrepository.com/actor-movie.php): This site renders a bipartite network of movies and the actors that have played in them. It gave us a grasp about the complexity of showing to much information in a single graph and helped us reconsider what we really wanted to show. The user interaction with the graph is similar with what we wanted to implement for our project but again we would like to add more feature to help reduce the information displayed at once. 
+
+
+* [Network Graphs of Actors Based on Popular Movies in Common](https://networkrepository.com/actor-movie.php](https://medium.com/web-mining-is688-spring-2021/network-graphs-of-actors-based-on-popular-movies-in-common-69d30e7b5e07): This paper was very useful for the preprocessing part of our data as it explore a problematic very close of what we had in mind. It also helped us reconsider the way we would center our graph around a single entity to obtain an more comprehensive vizualization tool
+
+
